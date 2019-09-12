@@ -17,7 +17,7 @@ Chrystian Abarzua
 <gap:platform	name="android"	/>
 
 
-<icon	src="img/icon.png"	/>
+<icon	src="img/logo.png"	/>
 <plugin name="cordova-plugin-splashscreen" />
 <gap:splash	src="img/splash.png"	/>
 
