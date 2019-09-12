@@ -4,7 +4,7 @@
 FixAPlace
 </name>
 <description>
-Aplicativo do TG Fixaplace
+Aplicativo do TG FixAPlace
 </description>
 <author	href="https://github.com/chrys-aa" email="chrystian.abarzua@hotmail.com">
 Chrystian Abarzua
@@ -14,11 +14,13 @@ Chrystian Abarzua
 <preference	name="fullscreen" value="true"	/>
 <preference	name="permissions" value="none"	/>
 <preference	name="android-minSdkVersion" value="16"	/>
-<gap:platform	name="android"	/>
+<preference name="SplashScreen" value="screen" />
+<preference name="SplashScreenDelay" value="10000" />
+<platform	name="android"	/>
 
 
 <icon	src="img/logo.png"	/>
-<plugin name="cordova-plugin-splashscreen" />
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" version="2.1.0"/>
 <gap:splash	src="img/splash.png"	/>
 
 </widget>
