@@ -1,0 +1,24 @@
+<?xml	version="1.0"	encoding="UTF-8"?>
+<widget	xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.com.fixaplace" version="1.0.0">
+<name>
+FixAPlace
+</name>
+<description>
+Aplicativo do TG Fixaplace
+</description>
+<author	href="https://github.com/chrys-aa" email="chrystian.abarzua@hotmail.com">
+Chrystian Abarzua
+</author>
+
+<preference	name="orientation" value="portrait"	/>
+<preference	name="fullscreen" value="true"	/>
+<preference	name="permissions" value="none"	/>
+<preference	name="android-minSdkVersion" value="16"	/>
+<gap:platform	name="android"	/>
+
+
+<icon	src="img/icon.png"	/>
+<plugin name="cordova-plugin-splashscreen" />
+<gap:splash	src="img/splash.png"	/>
+
+</widget>

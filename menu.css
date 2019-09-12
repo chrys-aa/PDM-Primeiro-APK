@@ -37,12 +37,6 @@ label {
     text-transform: uppercase;
     transition: background-color 0.3s ease;
 }
-    label[for=opcao-bolos] {
-        background-image: url(imagens/icone-bolos.svg);
-    }
-    label[for=opcao-bebidas] {
-        background-image: url(imagens/icone-bebidas.svg);
-    }
     :checked + label {
         background-color: rgb(78, 91, 242);
     }
